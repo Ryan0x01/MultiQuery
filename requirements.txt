@@ -1,0 +1,5 @@
+requests>=2.28.1
+PyMySQL>=1.0.2
+openpyxl>=3.0.10
+prettytable>=3.5.0
+PyYAML>=6.0

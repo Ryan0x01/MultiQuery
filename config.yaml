@@ -1,0 +1,28 @@
+# 配置FoFa账号
+fofa:
+  email: 
+  key: 
+  size: 10000  # 接口查询数量
+
+# 配置Hunter账号,可以在多维数组中添加多个账号，一个账号的积分用完后会自动切换下一个账号继续查询
+hunter:
+  page_size: 100  # 分页查询每页数据量，不得超过100
+  account:
+    -
+      username: 
+      key: 
+    -
+      username: 
+      key: 
+    -
+      username: 
+      key: 
+
+# 数据库配置
+database:
+  host:             # 数据库地址
+  port:             # 数据库端口
+  user:             # 数据库用户名
+  password:         # 数据库密码
+  db_name:          # 所使用的数据库名
+  table:            # 数据存储表名
