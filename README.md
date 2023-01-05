@@ -9,11 +9,10 @@
     <img src="https://badgen.net/github/license/OssianSong/MultiQuery">
     <img src="https://badgen.net/badge/language/python"> 
 </p>
+<br>
+<br>
 
-
-
-
-# 环境要求
+## 环境要求
 
 在使用之前需要使用 pip 安装依赖库文件
 
@@ -29,11 +28,11 @@ pip install -r requirements.txt
 
 当前脚本仅支持 **FoFa** 和 **Hunter**(奇安信鹰图平台) 聚合查询，后续将会聚合更多搜索引擎
 
+<br>
 
+## 快速使用
 
-# 快速使用
-
-## 单一查询
+### 单一查询
 
 通过参数 `-q` 可以指定查询语法，`-t` 可以指定查询平台，如果未使用 `-t` 参数，将默认使用全部平台进行查询，并会对查询结果进行合并和去重处理
 
@@ -76,7 +75,7 @@ python MultiQuery.py -q domain="baidu.com" -l 200
 
 
 
-## 批量查询
+### 批量查询
 
 在 txt 文件中逐行写入查询语句，如下在 `targets.txt` 中写入查询语句：
 
@@ -94,7 +93,7 @@ python MultiQuery.py -f targets.txt
 
 
 
-## 结果保存
+### 结果保存
 
 查询结果有三种输出方式，分别是列表打印输出、保存到Excel表中、保存到数据库汇总，在不携带输出参数时，将默认进行列表打印输出
 
@@ -112,6 +111,6 @@ python MultiQuery.py -q domain="baidu.com" -d
 
 
 
-# 后续更新
+## 后续更新
 
 当前功能尚不完全，后续有时间会聚合更多搜索平台，并进一步提高脚本稳定性，有什么问题和建议可以在issue中提出
